@@ -3,7 +3,7 @@ var mus = []
 var inst = []
 
 function theBeatlesPlay(mus, inst){
-  for(i = 0; i < mus; i++){
+  for(let i = 0; i < mus; i++){
     mus.push(mus[i] +'plays'+ inst[i])
   }
 }
