@@ -3,8 +3,9 @@ var mus = []
 var inst = []
 
 function theBeatlesPlay(mus, inst){
-  var empty = []
+  var band = []
   for(let i = 0; i < mus; i++){
-    empty.push(mus[i] +'plays'+ inst[i])
+    band.push(mus[i] +'plays'+ inst[i])
   }
+  return band
 }
