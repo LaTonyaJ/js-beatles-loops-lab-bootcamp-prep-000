@@ -1,6 +1,6 @@
 // add solution here
-var mus = []
-var inst = []
+//var mus = []
+//var inst = []
 
 function theBeatlesPlay(mus, inst){
   var band = []
